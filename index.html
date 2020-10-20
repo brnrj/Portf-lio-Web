@@ -1,52 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfólio de Bruno Martins</title>
     <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Bungee+Shade&family=Press+Start+2P&family=Sarpanch:wght@600&display=swap" rel="stylesheet">
-    <style>
-        body{
-        font-family: 'Press Start 2P', cursive;
-        line-height: 25px;
-        background-color: silver;
-        }
-        .nome{
-        font-family: 'Bungee Shade', cursive;
-        font-size: 30px;
-    
-        }
-
-        .descricao {
-            font-family: 'Sarpanch', sans-serif;
-            }
-
-        .fundo {
-         background-color: goldenrod;
-        padding: 15px 30px 15px 30px;
-        border-radius: 4px;
-    
-        }
-    </style>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bungee+Shade&family=Press+Start+2P&family=Sarpanch:wght@600&display=swap"
+        rel="stylesheet">
 </head>
-<body>
-    <h1 class="titulo fundo">Portfólio Web</h1><br>
-    <h2 id="nome" class="nome">Nome: Bruno Pereira Martins</h2>
-    <img src="imagens/foto_bruno_2018.jpg" width="200" alt="" id="foto">
-    <p class="descricao"><em>Foto tirada em uma viagem ao ENEFIL em Santa Maria-RS em 2018.</em></p>
-    <p class="descricao">Bacharel em Segurança Pública e <strong>Estudante de Desenvolvimento de Software</strong> na empresa Trybe. Brasileiro, carioca e residindo no Rio de Janeiro/RJ. </p>
-    <h3 class="fundo" id="habilidades">Habilidades:</h3>
-    <ul>
-        <li>Cozinhar</li>
-        <li>Senso Crítico</li>
-        <li>Administrar conflitos</li>
-        <li>Mente Empreendedora</li>
-        <li>Zelo pelo trabalho em grupo</li>
-    </ul><br>
-    <a href="imagens/foto_bruno_2018.jpg">Link Interno para a foto</a><br>
 
-    <a id="blog" href="https://www.reddit.com/r/BokuNoHeroAcademia/" target="_blank">Link do blog</a>
+<body>
+    <div class="header">
+        <h1 class="fundo center">Portfólio Web</h1><br>
+        <div class="apresentation">
+            <h2 id="nome">Nome: Bruno Martins</h2>
+            <p>Bacharel em Segurança Pública e <strong>Estudante de Desenvolvimento de Software</strong> na empresa
+                Trybe. Brasileiro, carioca e residindo no Rio de Janeiro/RJ.
+            </p>
+        </div>
+        <div class="apresentation">
+            <img class="photo" src="imagens/foto_bruno_2018.jpg" width="200" alt="" id="foto">
+            <p><em>Foto tirada em uma viagem ao ENEFIL em Santa Maria-RS em 2018.</em></p>
+        </div>
+    </div>
+    <div class="header center">
+        <h3 class="fundo" id="habilidades">Habilidades:</h3>
+        <ul>
+            <li class="impar">Cozinhar</li>
+            <li>Senso Crítico</li>
+            <li class="impar">Administrar conflitos</li>
+            <li>Mente Empreendedora</li>
+            <li class="impar">Zelo pelo trabalho em grupo</li>
+        </ul><br>
+        <a href="imagens/foto_bruno_2018.jpg">Link Interno para a foto</a><br>
+
+        <a id="blog" href="https://www.reddit.com/r/BokuNoHeroAcademia/" target="_blank">Link do blog</a>
+    </div>
+
 
     <h2 class="fundo" id="indice">Índice</h2>
     <a href="#nome">Nome</a><br>
@@ -56,4 +48,5 @@
     <a href="#indice">Índice</a><br>
 
 </body>
+
 </html>
